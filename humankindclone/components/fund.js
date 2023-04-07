@@ -4,7 +4,7 @@ import jam from "../public/Humankind_Assets/Humankind_Assets/images/63e09ea82ae9
 export default function Fund(){
     return(
         <div className="flex justify-center mt-24">
-        <div className="flex flex-row w-[70rem] h-3/6 p-5 border-4 rounded-2xl border-black hover:border-b-8 hover:border-l-8">
+        <div className="flex flex-row w-[70rem] h-[36rem] p-5 border-4 rounded-2xl border-black hover:border-b-8 hover:border-l-8">
             <Image className="w-1/2 h-full" src={jam}></Image>
             <div className="px-3 flex flex-col justify-center">
                 <h1 className="f1 text-3xl">Bring your ideas to life with the Humankind Fund</h1>
