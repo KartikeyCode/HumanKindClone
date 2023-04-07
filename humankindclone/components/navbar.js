@@ -4,7 +4,7 @@ import arrowd from "../public/Humankind_Assets/Humankind_Assets/images/62c1e461b
 
 export default function Navbar(){
     return(
-        <div className="flex flex-row justify-between w-full h-14 sticky top-0 bg-white z-[100]">
+        <div className="flex flex-row justify-between h-14 sticky top-0 bg-white z-[100]">
             <div className="flex flex-row justify-center mx-5">
             <Image className="" src={logo}></Image>
             <h1 className="self-center mx-2 f1 text-xl cursor-pointer" >humankind</h1>

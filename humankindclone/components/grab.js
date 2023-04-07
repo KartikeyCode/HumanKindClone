@@ -3,7 +3,7 @@ import lunchboxes from "../public/Humankind_Assets/Humankind_Assets/images/63765
 
 export default function Grab(){
     return(
-        <div className="flex justify-center mt-24 bg-gray-100">
+        <div className="flex justify-center mt-24 bg-gray-100 overflow-x-hidden">
         <div className="flex flex-row w-[65rem] h-[35rem] p-5 border-4 rounded-2xl border-black bg-white mt-28 mb-28">
             <Image className="w-1/2 h-2/3 self-center" src={lunchboxes}></Image>
             <div className="px-3 flex flex-col justify-center">

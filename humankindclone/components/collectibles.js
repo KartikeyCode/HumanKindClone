@@ -11,23 +11,29 @@ import guy9 from "../public/Humankind_Assets/Humankind_Assets/images/62d0eba9fc7
 
 export default function Collectibles(){
     return(
-        <div className="bg-[url('../public/Humankind_Assets/Humankind_Assets/images/62bacd30fa2cce04546413f8_Projects_20Section.png')] ">
-            <div className="flex flex-col items-center mt-28">
+        <div className="w-full flex flex-col bg-[url('../public/Humankind_Assets/Humankind_Assets/images/62bacd30fa2cce04546413f8_Projects_20Section.png')]">
+            <div className="ml-20 flex flex-col translate-y-56">
             <div className="flex flex-row h-36 justify-center">
-            <Image className="w-36 rounded-full border-4 border-black z-[46]" src={guy1}></Image>
-            <Image className="w-36 rounded-full border-4 border-black z-[47] -translate-x-5" src={guy2}></Image>
-            <Image className="w-36 rounded-full border-4 border-black z-[48] -translate-x-10" src={guy3}></Image>
-            <Image className="w-36 rounded-full border-4 border-black z-[49] -translate-x-16" src={guy4}></Image>
-            <Image className="w-36 rounded-full border-4 border-black z-[50] " src={guy5}></Image>
+            <Image className="transition ease-in-out duration-200 hover:scale-125 w-36 rounded-full border-4 border-black z-[46]" src={guy1}></Image>
+            <Image className="transition ease-in-out duration-200 hover:scale-125 w-36 rounded-full border-4 border-black z-[47] -translate-x-5" src={guy2}></Image>
+            <Image className="transition ease-in-out duration-200 hover:scale-125 w-36 rounded-full border-4 border-black z-[48] -translate-x-10" src={guy3}></Image>
+            <Image className="transition ease-in-out duration-200 hover:scale-125 w-36 rounded-full border-4 border-black z-[49] -translate-x-16" src={guy4}></Image>
+            <Image className="transition ease-in-out duration-200 hover:scale-125 w-36 rounded-full border-4 border-black z-[50] -translate-x-20" src={guy5}></Image>
             </div>
-            <div className="flex flex-row h-36 justify-center">
-            <Image className="w-36 rounded-full border-4 border-black z-[60]" src={guy6}></Image>
-            <Image className="w-36 rounded-full border-4 border-black z-[59]" src={guy7}></Image>
-            <Image className="w-36 rounded-full border-4 border-black z-[58]" src={guy8}></Image>
-            <Image className="w-36 rounded-full border-4 border-black z-[57]" src={guy9}></Image>
+            <div className="flex flex-row h-36 justify-center -translate-y-8 z-[51]">
+            <Image className="transition ease-in-out duration-200 hover:scale-125 w-36 rounded-full border-4 border-black z-[57] " src={guy6}></Image>
+            <Image className="transition ease-in-out duration-200 hover:scale-125 w-36 rounded-full border-4 border-black z-[58] -translate-x-5" src={guy7}></Image>
+            <Image className="transition ease-in-out duration-200 hover:scale-125 w-36 rounded-full border-4 border-black z-[59] -translate-x-10" src={guy8}></Image>
+            <Image className="transition ease-in-out duration-200 hover:scale-125 w-36 rounded-full border-4 border-black z-[60] -translate-x-16" src={guy9}></Image>
             </div>
-            <div className="flex bg-black w-[65rem] h-[25rem] self-center rounded-xl mb-28">
             </div>
+            <div className="flex flex-col self-center bg-black w-[70rem] h-[30rem] rounded-2xl mb-28 justify-center">
+                <h1 className="text-white self-center f2 text-5xl mt-32 mb-5">Humankind Collectibles</h1>
+                <h2 className="w-[55rem] text-center text-2xl text-white self-center f3 mb-5">We're launching a set of diverse and unique art collectibles featuring the Humankind species, the most prevalent in The Land of Kinds.</h2>
+                <div className="flex flex-row justify-center">
+                    <button className="hover:-translate-y-0.5 hover:translate-x-0.5 text-white f1 w-30 py-5 px-6 border-2 border-white rounded-full mx-2">Learn More</button>
+                    <button className="hover:-translate-y-0.5 hover:translate-x-0.5 text-black f1 w-30 py-5 px-6 border-2 bg-white border-white rounded-full mx-2">Get one from Opensea</button>
+                </div>
             </div>
         </div>
     )

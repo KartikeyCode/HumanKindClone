@@ -5,9 +5,9 @@ import hero2 from "../public/Humankind_Assets/Humankind_Assets/images/62d1b8e32e
 export default function Hero(){
     return(
         <div className="bg-white mt-20 flex flex-col">
-            <div className="flex justify-center">
+            <div className="flex justify-center ">
             <Image className="mt-10 w-11/12" src={hero1}></Image>
-            <Image className="absolute top-52 w-11/12 z-10" src={hero2}></Image>
+            <Image className="absolute top-52 w-11/12 z-10 " src={hero2}></Image>
             </div>
             <div className="flex mt-64 justify-center items-center flex-col">
             <h1 className="f3 text-3xl">Creating a magical world for the kid in all of us.</h1>
