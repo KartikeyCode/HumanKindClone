@@ -6,7 +6,7 @@ Made using Next.js and TailwindCSS
 # All buttons have animations on them (replicated as close as possible to the original website)
 
 Deployed using vercel at:
-# https://human-kind-clone-op3obx5c6-kartikeycode.vercel.app/
+# https://human-kind-clone.vercel.app/
 
 # Video Demo:
 
