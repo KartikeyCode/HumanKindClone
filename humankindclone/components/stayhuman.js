@@ -6,7 +6,7 @@ import gatsu2 from "../public/Humankind_Assets/Humankind_Assets/images/62bff7777
 export default function Stayhuman(){
     return(
         <div className="flex flex-col bg-black h-[60rem] overflow-hidden">
-            <h1 className="-mt-28 z-[25] f1 text-white text-[300px]">stayhuman</h1>
+            <h1 className="-mt-28 z-[25] f1 text-white text-[300px] self-center">stayhuman</h1>
             <div className="flex flex-row z-[27] justify-center">
                 <div className="transition ease-in-out duration-150 hover:border-l-[9px] hover:border-b-[9px] hover:-translate-y-1 hover:translate-x-1 cursor-pointer mx-2 py-10 px-10 rounded-2xl border-black border-[6px] bg-white w-[35rem] h-[20rem] -mb-80">
                     <Image className="mb-3 w-28" src={gatsu2}></Image>
